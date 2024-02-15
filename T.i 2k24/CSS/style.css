@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.barra_superior {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    float: right;
+    margin-top: 50px;
+}
+nav a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+.btn_Destaque {
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+}.sec01 {
+    height: 640px;
+    color: white;
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec01 p.titulo {
+    font-size: 40px;
+    padding-top: 130px;
+    margin-left: 0;
+}
+.sec01 p {
+    font-size: 24px;
+    padding-bottom: 20px;
+    line-height: 120%;
+}
